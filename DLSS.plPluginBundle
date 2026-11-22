@@ -1,0 +1,21 @@
+// for a description of the options see:
+// https://plengine.net/pages/docs/editor/editor-plugins.html
+
+PluginInfo
+{
+	string %DisplayName{"NVIDIA DLSS"}
+	string %Category{"Rendering"}
+	string %MinEngineVersion{"0.12.1"}
+	string %MaxEngineVersion{""}
+	string %Icon{"DLSSIcon.png"}
+	string %Banner{"DLSSBanner.png"}
+	string %Description{"NVIDIA DLSS Super Resolution as a temporal upscaler (Rendering.Upscaler = DLSS) on D3D12 with NVIDIA RTX GPUs. Needs nvngx_dlss.dll from the DLSS SDK."}
+	string %EditorPlugins{}
+	string %EditorEnginePlugins{}
+	string %RuntimePlugins{"plDLSSPlugin"}
+	string %PackageDependencies{}
+	string %RequiredPlugins{}
+	string %ExclusiveFeatures{}
+	string %EnabledInTemplates{}
+	string %PlasmaBuildTargetName{"DLSSPlugin"}
+}
