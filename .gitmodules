@@ -1,4 +1,4 @@
-[submodule "ThirdParty/DLSS"]
-	shallow = true
-	path = ThirdParty/DLSS
-	url = https://github.com/NVIDIA/DLSS.git
+[submodule "ThirdParty/Streamline"]
+	path = ThirdParty/Streamline
+	url = https://github.com/NVIDIA-RTX/Streamline.git
+	branch = main

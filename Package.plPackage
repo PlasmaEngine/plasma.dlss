@@ -8,7 +8,7 @@
 PackageInfo
 {
 	string %Id{"plasma.dlss"}
-	string %Version{"1.0.0"}
+	string %Version{"2.0.0"}
 	string %Publisher{"PlasmaTechnology"}
 	string %License{"MIT"}
 	string %Homepage{"https://plasmagameengine.com"}
@@ -19,7 +19,7 @@ PackageInfo
 
 	string %DisplayName{"NVIDIA DLSS"}
 	string %Category{"Rendering"}
-	string %Description{"Adds NVIDIA DLSS Super Resolution as a temporal upscaler (Rendering.Upscaler = DLSS) on D3D12 with NVIDIA RTX GPUs. Vulkan is not supported yet. Ships no NVIDIA runtime: NVIDIA's licence does not allow redistributing it outside an application. A build of the package from source gets the SDK through its git submodule; ship nvngx_dlss.dll from the DLSS SDK next to your game executable. Can be installed alongside the other upscaler packages; the game settings choose between them."}
+	string %Description{"NVIDIA DLSS through the Streamline SDK on D3D12 with NVIDIA RTX GPUs: Super Resolution and DLAA (Rendering.Upscaler = DLSS), Ray Reconstruction (Rendering.Upscaler.RayReconstruction, pipelines with the path tracing pass), Frame Generation and Multi Frame Generation (Rendering.FrameGeneration = DLSS, RTX 40 series and newer), and Reflex (Rendering.LowLatency). Vulkan is not supported yet. The plugin contains no NVIDIA code and ships no NVIDIA runtime: a game ships the signed Streamline DLLs (sl.*.dll, nvngx_dlss*.dll) from the Streamline release next to its executable. Can be installed alongside the other upscaler packages; the game settings choose between them."}
 	string %Icon{"Branding/DLSSIcon.png"}
 	string %Banner{"Branding/DLSSBanner.png"}
 
