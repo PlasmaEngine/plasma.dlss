@@ -9,7 +9,7 @@ PluginInfo
 	string %MaxEngineVersion{""}
 	string %Icon{"DLSSIcon.png"}
 	string %Banner{"DLSSBanner.png"}
-	string %Description{"NVIDIA DLSS Super Resolution as a temporal upscaler (Rendering.Upscaler = DLSS) on D3D12 with NVIDIA RTX GPUs. Needs nvngx_dlss.dll from the DLSS SDK."}
+	string %Description{"NVIDIA DLSS through Streamline on D3D12 with NVIDIA RTX GPUs: Super Resolution, DLAA, Ray Reconstruction, Frame Generation and Reflex. Needs the Streamline runtime (sl.*.dll, nvngx_dlss*.dll) next to the plugin or the executable."}
 	string %EditorPlugins{}
 	string %EditorEnginePlugins{}
 	string %RuntimePlugins{"plDLSSPlugin"}
